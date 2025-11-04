@@ -1,0 +1,51 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    background: linear-gradient(to bottom, rgb(36, 50, 88), rgb(23, 70, 123));
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(56, 77, 134, 0.8);  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+h1,
+h2,
+p {
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+}
+
+input[type="text"]:focus {
+    outline: none; 
+    border: 2px solid black; 
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(34, 152, 182);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(28, 126, 152);
+}
+
+#responseData {
+    margin-top: 20px;
+    font-size: 18px;
+}
